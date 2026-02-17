@@ -6,8 +6,10 @@ This is a **dynamic instrumentation approach** commonly used in **mobile applica
 
 ---
 
-# ⚠️ Disclaimer:
+## ⚠️ Disclaimer:
 This guide is for educational and authorized security testing purposes only. Do not test applications without proper permission.
+
+---
 
 ## 📂 Repository Structure
 
