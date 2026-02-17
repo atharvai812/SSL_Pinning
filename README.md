@@ -192,11 +192,30 @@ com.example.targetapp
 
 # 🧪 STEP 7: SSL Pinning Bypass Script
 
-Script is included in this repo:
+The primary script used in this repository:
 
 👉 **[`ssl_bypass.js`](./ssl_bypass.js)**
 
-No need to recreate it manually.
+You can directly use the included script.
+
+---
+
+## 📚 Reference Script (Community Version)
+
+This implementation is inspired by the widely used universal SSL pinning bypass script from Frida CodeShare:
+
+🔗 https://codeshare.frida.re/@pcipolloni/universal-android-ssl-pinning-bypass-with-frida/
+
+The CodeShare version contains additional universal hooks and broader compatibility for different SSL implementations.
+
+---
+
+> 💡 Tip:  
+> If the included script does not bypass pinning for your target app, try the CodeShare script directly using:
+>
+> ```bash
+> frida --codeshare pcipolloni/universal-android-ssl-pinning-bypass-with-frida -U -f com.example.targetapp
+> ```
 
 ---
 
